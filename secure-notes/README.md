@@ -1,5 +1,10 @@
 # secure-notes: Zero-trust style secure notes app
 
+## Core idea
+- Notes are encrypted client-side (browser) before sending to API
+- API stores only ciphertext + metadata
+- Server never sees plaintext (true zero-trust pattern)
+
 ## 🚀 Live Demo
 - Frontend: https://secure-notes-ui.onrender.com
 - Backend/API: https://secure-notes-api.onrender.com
